@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
+// test
 export default function Onboarding() {
   const [step, setStep] = useState<1 | 2>(1);
   const router = useRouter();
